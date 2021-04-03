@@ -1,6 +1,7 @@
 from pyrogram import Client, __version__
 
-from .config import API_HASH, API_ID, LOGGER, USER_SESSION
+from .config import API_HASH, API_ID, USER_SESSION
+from . import LOGGER
 
 
 class User(Client):
