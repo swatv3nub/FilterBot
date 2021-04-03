@@ -1,3 +1,3 @@
-from FilterBot import app
+from FilterBot.filterbot import app
 
 app().run()
