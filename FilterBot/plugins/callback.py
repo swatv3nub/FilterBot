@@ -6,7 +6,7 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
-from FilterBot import app, start_uptime, Translation
+from FilterBot import start_uptime, Translation
 from FilterBot.plugins.auto_filter import (
     Find, 
     InviteLink, 
@@ -19,6 +19,7 @@ from FilterBot.plugins.settings import(
     remove_emoji
 )
 from FilterBot.database import Database
+from .filterbot import app
 
 db = Database()
 
