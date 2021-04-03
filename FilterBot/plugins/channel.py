@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant, FloodWait
 
-from FilterBot import app
+from FilterBot.filterbot import app
 from FilterBot.database import Database 
 from FilterBot.plugins.auto_filter import ReCacher 
 
