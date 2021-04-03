@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 from pyrogram.errors import ButtonDataInvalid
 
 from FilterBot.database import Database
-from FilterBot import app 
+from FilterBot.filterbot import app 
 
 Find = {}
 InviteLink = {}
