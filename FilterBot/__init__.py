@@ -1,21 +1,10 @@
-#imports
-
 import logging
 import time
 
 from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
-from .user import User
 
-from pyrogram import Client, __version__
-
-#import ENV
-
-from FilterBot.config import API_ID, API_HASH, BOT_TOKEN, DB_URI, USER_SESSION
-
-
-# Logging Thing
 
 logging.basicConfig(
     level=logging.INFO,
