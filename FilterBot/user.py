@@ -1,6 +1,6 @@
 from pyrogram import Client, __version__
 
-from .config import API_HASH, APP_ID, LOGGER, USER_SESSION
+from .config import API_HASH, API_ID, LOGGER, USER_SESSION
 
 
 class User(Client):
@@ -8,7 +8,7 @@ class User(Client):
         super().__init__(
             USER_SESSION,
             api_hash=API_HASH,
-            api_id=APP_ID,
+            api_id=API_ID,
             workers=4
         )
         self.LOGGER = LOGGER
