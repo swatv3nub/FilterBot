@@ -1,6 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from FilterBot import Translation, app
+from FilterBot import Translation
+from .filterbot import app
 
 @app.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
