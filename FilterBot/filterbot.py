@@ -13,7 +13,7 @@ class app(Client):
         super().__init__(
             "filterbot",
             api_hash=API_HASH,
-            api_id=APP_ID,
+            api_id=API_ID,
             plugins={
                 "root": "FilterBot/plugins"
             },
