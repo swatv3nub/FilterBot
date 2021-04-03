@@ -1,7 +1,7 @@
 import re
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from FilterBot import app
+from FilterBot.filterbot import app
 
 verify={}
 
