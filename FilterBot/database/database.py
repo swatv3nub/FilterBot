@@ -1,5 +1,5 @@
 import motor.motor_asyncio
-from FilterBot import DB_URI
+from FilterBot.config import DB_URI
 
 class Singleton(type):
     __instances__ = {}
